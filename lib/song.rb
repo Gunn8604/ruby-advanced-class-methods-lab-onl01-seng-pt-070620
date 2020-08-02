@@ -35,4 +35,5 @@ class Song
   #takes string of song and returns a song instance with that name as its name property AND the song saved into @@all
   #calls the self.create instance method on the song because we want to save the song which is done in the self.create method
   
+  
 end   #Class End 
