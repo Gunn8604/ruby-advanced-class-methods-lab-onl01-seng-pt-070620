@@ -16,7 +16,8 @@ class Song
     song
   end
   # self.create means song.create because self is the class Song
-# in this class method, we initialize a song and save it with the .save method. If we look at the .save class method, it's saying that the class itself (song in this case) should be saved to the @@all array.
+  # in this class method, we initialize a song and save it with the .save method. If we look at the .save class method, it's saying that the class itself (song in this case) should be saved to the @@all array.
+  
   
   
 end   #Class End 
