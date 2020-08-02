@@ -35,5 +35,9 @@ class Song
   #takes string of song and returns a song instance with that name as its name property AND the song saved into @@all
   #calls the self.create instance method on the song because we want to save the song which is done in the self.create method
   
-  
+  def self.find_by_name(song_name)
+    self.all.detect { |song|
+      song.name == song_name
+    }
+  end
 end   #Class End 
