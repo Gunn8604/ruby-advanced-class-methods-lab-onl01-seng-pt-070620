@@ -23,6 +23,9 @@ class Song
     song.name = song_name
     song
   end
+  #self.new_by_name means song.new_by_name
+  #takes string of song and returns a song instance with that name as its name property
+  
   
   
 end   #Class End 
